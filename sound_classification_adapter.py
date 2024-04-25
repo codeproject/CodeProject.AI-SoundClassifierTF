@@ -1,7 +1,6 @@
 # Import our general libraries
 import io
 import os
-import sys
 import time
 
 # Import CodeProject.AI SDK
