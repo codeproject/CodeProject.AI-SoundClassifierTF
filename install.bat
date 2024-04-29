@@ -14,7 +14,7 @@
 )
 
 :: Download the models and store in /assets
-call "%sdkScriptsDirPath%\utils.bat" GetFromServer "models/" "sound-classification-models-tf.zip" "data" "Downloading Sound classification models..."
+call "%utilsScript%" GetFromServer "models/" "sound-classification-models-tf.zip" "data" "Downloading Sound classification models..."
 
 REM TODO: Check assets created and has files
 REM set moduleInstallErrors=...
