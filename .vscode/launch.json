@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "presentation": {
+                "group": "Start",
+                "hidden": false
+            },
+
+            "name": "Launch Sound Classifier (TF)",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program": "sound_classification_adapter.py",
+            // "args": [ "--selftest" ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "DEBUG_IN_VSCODE": "True",
+                "RUNNING_IN_VSCODE": "True",
+                // "CPAI_LOG_VERBOSITY": "Loud",
+                "CPAI_PORT": "32168",
+
+                "TF_ENABLE_ONEDNN_OPTS": "0",  // Turn of oneDNN custom ops
+                "TF_CPP_MIN_LOG_LEVEL":  "2",   // 1 = no info, 2 = no info,warn, 3 = nothing
+            },
+
+            "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python39/venv/bin/python",
+            "windows": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/windows/python39/venv/Scripts/python"
+            },
+            "linux": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python39/venv/bin/python",
+            },
+            "osx": {
+                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+            }
+        }
+    ]
+}
