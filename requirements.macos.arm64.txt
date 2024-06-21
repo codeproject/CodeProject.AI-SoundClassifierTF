@@ -5,7 +5,7 @@ tensorflow-macos==2.9.2         # Installing Tensorflow for macOS
 tf_slim                         # Installing TF-Slim, the lightweight library for defining, training and evaluating complex models in TensorFlow
 
 SciPy                           # Installing SciPy, a library for mathematics, science, and engineering
-numpy>=1.16.5                   # Installing NumPy, a package for scientific computing
+numpy>=1.16.5,<2.0              # Installing NumPy, a package for scientific computing
 Pillow>=4.0.0,<10.0             # Installing Pillow, a Python Image Library
 
 resampy==0.2.2                  # Installing ReSampy, the library for Efficient sample rate conversion in Python
