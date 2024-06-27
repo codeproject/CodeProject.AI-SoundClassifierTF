@@ -1,7 +1,7 @@
 #! Python3.7
 
  # A NumPy version >=1.16.5 and <1.23.0 is required
-numpy==1.20.3                   # Installing NumPy, a package for scientific computing
+numpy==1.23                     # Installing NumPy, a package for scientific computing
 
 tensorflow==2.15.0              # Installing Tensorflow
 tf_slim                         # Installing TF-Slim, the lightweight library for defining, training and evaluating complex models in TensorFlow
