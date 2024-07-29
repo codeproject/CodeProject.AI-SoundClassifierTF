@@ -1,6 +1,6 @@
 #! Python3.7
 
- numpy>=1.16.5,<2.0             # Installing NumPy, a package for scientific computing
+ numpy==1.26.4                  # Installing NumPy, a package for scientific computing
 
 tensorflow-macos==2.9.2         # Installing Tensorflow for macOS
 # tensorflow-metal==0.5.1       # Installing Tensorflow Metal support for macOS
