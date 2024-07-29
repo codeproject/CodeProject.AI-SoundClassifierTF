@@ -1,6 +1,6 @@
 #! Python3.7
 
-numpy==1.20.3                   # Installing NumPy, a package for scientific computing
+numpy<2.0.0,>=1.23.5            # Installing NumPy, a package for scientific computing
 
 tensorflow==2.15.0              # Installing Tensorflow
 tf_slim                         # Installing TF-Slim, the lightweight library for defining, training and evaluating complex models in TensorFlow
