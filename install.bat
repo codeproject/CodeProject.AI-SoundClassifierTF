@@ -14,6 +14,9 @@
     @goto:eof
 )
 
+REM This is necessary
+set oneStepPIP=true
+
 REM Backwards compatibility with Server 2.6.5
 if "!utilsScript!" == "" if "!sdkScriptsDirPath!" NEQ "" set utilsScript=%sdkScriptsDirPath%\utils.bat
 
