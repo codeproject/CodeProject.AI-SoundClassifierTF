@@ -20,11 +20,11 @@ if [ "$1" != "install" ]; then
 fi
 
 
-if [ "$module_install_errors" == "" ]; then
+if [ "$moduleInstallErrors" == "" ]; then
     echo
     # Download the TF models and store in /data
     getFromServer "models/" "sound-classification-models-tf.zip" "data" "Downloading sound classification models..."
 
     # TODO: Check assets created and has files
-    # module_install_errors=...
+    # moduleInstallErrors=...
 fi
