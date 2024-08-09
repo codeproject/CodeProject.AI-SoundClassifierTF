@@ -19,6 +19,8 @@ if [ "$1" != "install" ]; then
     exit 1 
 fi
 
+# This is necessary
+oneStepPIP=true
 
 if [ "$moduleInstallErrors" == "" ]; then
     echo
