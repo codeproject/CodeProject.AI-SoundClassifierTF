@@ -3,7 +3,7 @@
 
     "SoundClassifierTF": {
       "Name": "Sound Classifier (TensorFlow)",
-      "Version": "1.3.3",
+      "Version": "1.4.0",
       
       "PublishingInfo" : {
         "Description": "The sound classifier uses Tensorflow with Python to classify sound files based on the UrbanSound8K dataset.",
@@ -42,7 +42,7 @@
       },
 
       "InstallOptions" : {
-        "Platforms":      [ "all", "!windows-arm64" ],      // The platforms this module can and cannot be installed on
+        "Platforms":      [ "all" ],      // The platforms this module can and cannot be installed on
         "ModuleReleases": [               // Which server version is compatible with each version of this module.
           { "ModuleVersion": "1.0.1", "ServerVersionRange": [ "2.4.6", "2.4.7" ], "ReleaseDate": "2023-12-28", "ReleaseNotes": "Initial version" },
           { "ModuleVersion": "1.0.2", "ServerVersionRange": [ "2.5.0-RC1", "2.5.0-RC5" ], "ReleaseDate": "2024-01-06", "ReleaseNotes": "Additions for dynamic explorer UI" },
@@ -55,9 +55,10 @@
           { "ModuleVersion": "1.2.1", "ServerVersionRange": [ "2.5.6", ""     ], "ReleaseDate": "2024-02-28", "ReleaseNotes": "Fixed missing package" },
           { "ModuleVersion": "1.2.2", "ServerVersionRange": [ "2.6.0", ""     ], "ReleaseDate": "2024-04-01", "ReleaseNotes": "Tweaks to categorisation and tests" },
           { "ModuleVersion": "1.3.0", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-04-25", "ReleaseNotes": "Updated for CodeProject.AI Server 2.6.5" },
-          { "ModuleVersion": "1.3.1", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Corrected Numpy 2.0 issue" },
-          { "ModuleVersion": "1.3.2", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Further work on the Numpy 2.0 issue" },
-          { "ModuleVersion": "1.3.3", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-07-03", "ReleaseNotes": "Further work on the Numpy 2.0 issue" }
+          { "ModuleVersion": "1.3.1", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Corrected NumPy 2.0 issue" },
+          { "ModuleVersion": "1.3.2", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-06-21", "ReleaseNotes": "Further work on the NumPy 2.0 issue" },
+          { "ModuleVersion": "1.3.3", "ServerVersionRange": [ "2.6.5", ""     ], "ReleaseDate": "2024-07-03", "ReleaseNotes": "Further work on the NumPy 2.0 issue" },
+          { "ModuleVersion": "1.4.0", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" }
        ]
       },
 
