@@ -13,7 +13,7 @@
         "License": "Apache-2.0",
         "LicenseUrl": "https://opensource.org/licenses/Apache-2.0",
         "Author": "Chris Maunder",
-        "Homepage": "https://https://github.com/codeproject/CodeProject.AI-Server/",
+        "Homepage": "https://github.com/codeproject/CodeProject.AI-Server/",
         "BasedOn": "Tensorflow-Audio-Classification",
         "BasedOnUrl": "https://github.com/luuil/Tensorflow-Audio-Classification"
       },
