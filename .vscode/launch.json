@@ -25,15 +25,16 @@
                 "TF_CPP_MIN_LOG_LEVEL":  "2",   // 1 = no info, 2 = no info,warn, 3 = nothing
             },
 
-            "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python39/venv/bin/python",
+            "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python39/venv/Scripts/python",
             "windows": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/windows/python39/venv/Scripts/python"
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python39/venv/Scripts/python"
             },
             "linux": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/linux/python39/venv/bin/python",
+                // "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/ubuntu/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/debian/python38/venv/bin/python",
             },
             "osx": {
-                "python": "${workspaceFolder}/../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
             }
         }
     ]
